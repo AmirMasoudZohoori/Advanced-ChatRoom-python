@@ -53,7 +53,7 @@ def get_message(client):
                 clients.remove(client)
                 name = clients_name[index]
                 clients_name.remove(name)
-                break
+            break
 
 
 def join_client():
